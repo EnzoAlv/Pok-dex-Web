@@ -12,8 +12,6 @@ Carregar Mais: Botão para carregar mais Pokémon na lista.
 O design do site é baseado em um esquema de cores preto, branco e vermelho, inspirado no tema da Pokédex. O cabeçalho inclui o nome "Pokédex".
 
 
-
-
 🚀 Tecnologias Utilizadas
 React: Biblioteca JavaScript para construção da interface do usuário.
 CSS: Estilização personalizada para o layout e design.

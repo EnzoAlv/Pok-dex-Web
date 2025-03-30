@@ -1,0 +1,186 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* Estilo geral */
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff0000;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.App-header h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.App-header img {
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+}
+
+
+/* Lista de Pokémon */
+.pokemon-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Estilo para os cards de Pokémon */
+.pokemon-card {
+  background-color: #1a1a1a;
+  border: 2px solid #ff0000;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(255, 0, 0, 0.5);
+}
+
+.pokemon-card img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.pokemon-card div {
+  margin: 5px 0;
+}
+
+.load-more button {
+  padding: 10px 20px;
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.load-more button:hover {
+  background-color: #cc0000;
+}
+
+.load-more p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Modal */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background-color: #1a1a1a;
+  border: 2px solid #ff0000;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  width: 80%; /* Reduz o tamanho do modal */
+  max-width: 350px; /* Define um tamanho máximo menor */
+  max-height: 60vh; /* Limita a altura do modal a 60% da altura da tela */
+  overflow: hidden; /* Remove barras de rolagem */
+  position: relative; /* Necessário para posicionar o botão */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Adiciona sombra para destaque */
+}
+
+.modal-content img {
+  width: 150px; /* Reduz o tamanho da imagem */
+  height: 150px; /* Mantém a proporção */
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.close-button {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 14px; /* Reduz o tamanho do texto do botão */
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: absolute; /* Posiciona o botão dentro do modal */
+  top: 10px; /* Ajusta a posição vertical */
+  right: 10px; /* Ajusta a posição horizontal */
+  transform: none; /* Remove transformações desnecessárias */
+}
+
+.close-button:hover {
+  background-color: #cc0000;
+}
+
+/* Estilo para a barra de pesquisa */
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+form input[type="text"] {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  margin-right: 10px;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: #000;
+  color: #fff;
+}
+
+/* Estilo para o botão de busca */
+form button {
+  padding: 10px 20px;
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #cc0000;
+}

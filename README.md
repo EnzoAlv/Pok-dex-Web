@@ -1,7 +1,7 @@
 
 
 
-Está é uma aplicação web simples e interativa que permite aos usuários explorar informações sobre Pokémon. Este projeto utiliza a PokéAPI para buscar dados detalhados sobre os Pokémon, como nome, número, peso, altura e tipos.
+Esta é uma aplicação web simples e interativa que permite aos usuários explorar informações sobre Pokémon. Este projeto utiliza a PokéAPI para buscar dados detalhados sobre os Pokémon, como nome, número, peso, altura e tipos.
 
 📋 Funcionalidades
 Busca de Pokémon: Permite pesquisar por Pokémon pelo nome.

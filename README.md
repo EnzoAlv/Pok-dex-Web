@@ -2,6 +2,9 @@
 
 Uma aplicação web que simula uma **Pokédex**, permitindo visualizar informações detalhadas sobre diferentes Pokémon de forma interativa e moderna.  
 
+<img width="1878" height="921" alt="image" src="https://github.com/user-attachments/assets/4564ea5d-8542-48fa-b5a1-17a6f3e37549" />
+
+
 ## 🚀 Tecnologias Utilizadas  
 - **HTML5** → Estrutura da aplicação  
 - **CSS3** → Estilização e responsividade  
